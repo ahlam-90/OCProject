@@ -4,13 +4,13 @@ Ce script permet de supprimer régulièrement les dossiers et les fichiers tempo
 
   
 
-Compatibilité 
+#Compatibilité 
 
 Testé sous Windows 10, Centos8. 
+ 
 
-  
 
-Prérequis 
+#Prérequis 
 
 Installation du module Paramiko : 
 
@@ -18,29 +18,36 @@ Installation du module Paramiko :
 
 Accès SSH pour vous connecter sur les machines distantes. 
 
-  
 
-Lancement 
+
+
+#Lancement 
 
 Windows : 
 
    Python script1.py 
-
  
-
 Linux : 
 
   Python3 script1.py 
 
  
-
-Exemple de fonctionnement 
-
+ 
 
 
-Construction 
+#Exemple de fonctionnement
 
-Deux script python : 
+
+![image](https://user-images.githubusercontent.com/85261915/122476130-00461800-cfc6-11eb-929e-39d7c596e0e1.png)
+
+
+
+
+
+
+#Construction 
+
+Deux scripts python : 
 
 Le premier “script1”, permet de : 
 
