@@ -1,2 +1,62 @@
-# OCProject
-Le script permet de supprimer les fichiers temporaires sous Windows et linux
+# Delete-temporary-folders-and-filses_Windows&Linix 
+
+Ce script permet de supprimer régulièrement les dossiers et les fichiers temporaires sous Windows et Linux 
+
+  
+
+Compatibilité 
+
+Testé sous Windows 10, Centos8. 
+
+  
+
+Prérequis 
+
+Installation du module Paramiko : 
+
+ pip install paramiko 
+
+Accès SSH pour vous connecter sur les machines distantes. 
+
+  
+
+Lancement 
+
+Windows : 
+
+   Python script1.py 
+
+ 
+
+Linux : 
+
+  Python3 script1.py 
+
+ 
+
+Exemple de fonctionnement 
+
+
+
+Construction 
+
+Deux script python : 
+
+Le premier “script1”, permet de : 
+
+Afficher les machines disponibles sur une plage d’adresses donnée avec le nom et l’adresse IP.  
+
+Entrer l’adresse IP de la machine sur laquelle vous souhaitez supprimer les fichiers/dossiers temporaires. 
+
+Se connecter en SSH sur la machine distante. 
+
+Copier le deuxième script “script2” sur la machine distante. 
+
+Exécuter le “script2” sur la machine distante. 
+
+ 
+
+Le deuxième “script2”, permet de : 
+
+Calculer l’âge des dossiers/fichiers temporaires, le comparer avec la durée maximale indiquée et supprimer les dossiers/fichiers dont l’âge est supérieur ou égale à cette dernière. 
+
