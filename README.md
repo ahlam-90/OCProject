@@ -51,19 +51,25 @@ Deux scripts python :
 
 Le premier “script1”, permet de : 
 
-Afficher les machines disponibles sur une plage d’adresses donnée avec le nom et l’adresse IP.  
+   Afficher les machines disponibles sur une plage d’adresses donnée avec le nom et l’adresse IP.  
 
-Entrer l’adresse IP de la machine sur laquelle vous souhaitez supprimer les fichiers/dossiers temporaires. 
+   Entrer l’adresse IP de la machine sur laquelle vous souhaitez supprimer les fichiers/dossiers temporaires. 
 
-Se connecter en SSH sur la machine distante. 
+   Se connecter en SSH sur la machine distante. 
 
-Copier le deuxième script “script2” sur la machine distante. 
+   Copier le deuxième script “script2” sur la machine distante. 
 
-Exécuter le “script2” sur la machine distante. 
+   Exécuter le “script2” sur la machine distante. 
 
  
 
-Le deuxième “script2”, permet de : 
+Le deuxième “script2”, permet de :
 
-Calculer l’âge des dossiers/fichiers temporaires, le comparer avec la durée maximale indiquée et supprimer les dossiers/fichiers dont l’âge est supérieur ou égale à cette dernière. 
+   Calculer l’âge des dossiers/fichiers temporaires et le comparer avec la durée maximale indiquée "days".
+   
+   Afficher le contenu du répertoire "temp" (sous Windows), ou "tmp" (sous linux), les dossiers/fichiers dont l'âge est supperieur ou égale à "days", seront affichés en rouge.
+   
+   Supprimer les dossiers/fichiers dont l’âge est supérieur ou égale à days". 
+   
+   Afficher le contenu du répertoire "temp" (sous Windows), ou "tmp" (sous linux) après la suppression.
 
