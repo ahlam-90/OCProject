@@ -10,13 +10,14 @@ Testé sous Windows 10, Centos8.
  
 
 
+
 #Prérequis 
 
-Installation du module Paramiko : 
+Installation du module Paramiko : pip install paramiko
 
- pip install paramiko 
 
 Accès SSH pour vous connecter sur les machines distantes. 
+
 
 
 
@@ -33,18 +34,6 @@ Linux :
 
  
  
-
-
-#Exemple de fonctionnement
-
-
-![image](https://user-images.githubusercontent.com/85261915/124932879-b8824180-e003-11eb-9a3d-ebf735388775.png)
-![image](https://user-images.githubusercontent.com/85261915/124932930-c33cd680-e003-11eb-80d1-216910f675bb.png)
-![image](https://user-images.githubusercontent.com/85261915/124932983-ccc63e80-e003-11eb-846f-aefc26b2ceab.png)
-
-
-
-
 
 
 
@@ -70,9 +59,23 @@ Le deuxième “script2”, permet de :
 
    Calculer l’âge des dossiers/fichiers temporaires et le comparer avec la durée maximale indiquée "days".
    
-   Afficher le contenu du répertoire "temp" (sous Windows), ou "tmp" (sous linux), les dossiers/fichiers dont l'âge est supperieur ou égale à "days", seront affichés en rouge.
+   Afficher le contenu du répertoire "temp" (sous Windows), ou "tmp" (sous linux).
    
    Supprimer les dossiers/fichiers dont l’âge est supérieur ou égale à days". 
    
    Afficher le contenu du répertoire "temp" (sous Windows), ou "tmp" (sous linux) après la suppression.
+   
+   
+   
+   
+   
+   
+   
+   
+ #Exemple de fonctionnement: Test avec days=1jour(les dossiers/ficgiers dont l'âge >= 1jour seront supprimés)
+
+
+![image](https://user-images.githubusercontent.com/85261915/124932879-b8824180-e003-11eb-9a3d-ebf735388775.png)
+![image](https://user-images.githubusercontent.com/85261915/124932930-c33cd680-e003-11eb-80d1-216910f675bb.png)
+![image](https://user-images.githubusercontent.com/85261915/124932983-ccc63e80-e003-11eb-846f-aefc26b2ceab.png)
 
