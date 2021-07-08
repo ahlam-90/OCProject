@@ -38,7 +38,10 @@ Linux :
 #Exemple de fonctionnement
 
 
-![image](https://user-images.githubusercontent.com/85261915/122476130-00461800-cfc6-11eb-929e-39d7c596e0e1.png)
+![image](https://user-images.githubusercontent.com/85261915/124932879-b8824180-e003-11eb-9a3d-ebf735388775.png)
+![image](https://user-images.githubusercontent.com/85261915/124932930-c33cd680-e003-11eb-80d1-216910f675bb.png)
+![image](https://user-images.githubusercontent.com/85261915/124932983-ccc63e80-e003-11eb-846f-aefc26b2ceab.png)
+
 
 
 
