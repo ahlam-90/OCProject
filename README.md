@@ -4,14 +4,14 @@ Ce script permet de supprimer régulièrement les dossiers et les fichiers tempo
 
   
 
-#Compatibilité 
+## Compatibilité 
 
 Testé sous Windows 10, Centos8. 
  
 
 
 
-#Prérequis 
+## Prérequis 
 
 Installation du module Paramiko : pip install paramiko
 
@@ -22,7 +22,7 @@ Accès SSH pour vous connecter sur les machines distantes.
 
 
 
-#Lancement 
+## Lancement 
 
 Windows : 
 
@@ -37,11 +37,11 @@ Linux :
 
 
 
-#Construction 
+## Construction 
 
 Deux scripts python : 
 
-Le premier “script1”, permet de : 
+### Le premier “script1”permet de:
 
    Afficher les machines disponibles sur une plage d’adresses donnée avec le nom et l’adresse IP.  
 
@@ -55,7 +55,7 @@ Le premier “script1”, permet de :
 
  
 
-Le deuxième “script2”, permet de :
+### Le deuxième “script2”, permet de :
 
    Calculer l’âge des dossiers/fichiers temporaires et le comparer avec la durée maximale indiquée "days".
    
@@ -72,7 +72,8 @@ Le deuxième “script2”, permet de :
    
    
    
- #Exemple de fonctionnement: Test avec days=1jour(les dossiers/ficgiers dont l'âge >= 1jour seront supprimés)
+ ## Exemple de fonctionnement: 
+ Test avec days=1jour(les dossiers/fichiers dont l'âge >= 1jour seront supprimés)
 
 
 ![image](https://user-images.githubusercontent.com/85261915/124932879-b8824180-e003-11eb-9a3d-ebf735388775.png)
