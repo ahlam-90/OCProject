@@ -1,4 +1,4 @@
-# Delete-temporary-folders-and-filses_Windows&Linix 
+# Delete-temporary-folders-and-filses_Windows&Linux 
 
 Ce script permet de supprimer régulièrement les dossiers et les fichiers temporaires sous Windows et Linux 
 
