@@ -1,7 +1,6 @@
 
 import socket
 import os
-import platform
 import re
 import subprocess
 import time
@@ -13,7 +12,7 @@ import sys
 
 
 #la requête ping 
-        ping1 = "ping -n 1 "
+ping1 = "ping -n 1 "
 
 # initialisation du dictionnaire
 dict_IP_Online ={}
