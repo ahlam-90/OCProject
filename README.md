@@ -6,7 +6,7 @@ Ce script permet de supprimer régulièrement les dossiers et les fichiers tempo
 
 ## Compatibilité 
 
-Testé sous Windows 10, Centos8. 
+Testé sous Windows10 vers Windows10, et Windows10 vers Centos8. 
  
 
 
