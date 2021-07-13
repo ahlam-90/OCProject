@@ -28,13 +28,6 @@ Windows :
 
    Python script1.py 
  
-Linux : 
-
-  Python3 script1.py 
-
- 
- 
-
 
 
 ## Construction 
