@@ -61,7 +61,7 @@ Deux scripts python :
    
    Afficher le contenu du répertoire "temp" (sous Windows), ou "tmp" (sous linux).
    
-   Supprimer les dossiers/fichiers dont l’âge est supérieur ou égale à days". 
+   Supprimer les dossiers/fichiers dont l’âge est supérieur ou égale à "days". 
    
    Afficher le contenu du répertoire "temp" (sous Windows), ou "tmp" (sous linux) après la suppression.
    
